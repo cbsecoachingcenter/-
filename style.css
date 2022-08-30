@@ -1,0 +1,20 @@
+a{
+  text-decoration: none;
+}
+
+
+
+
+.carousel-inner .carousel-item .d-block{
+height : 300px;
+}
+
+.card-body{
+  height:250px;
+}
+
+
+.Shadow{
+  margin: 10px auto;
+  box-shadow: 4px 4px 4px grey;
+}
