@@ -25,13 +25,13 @@ const aniSlide = document.getElementById("aniSlide");
 aniSlide.innerHTML = ` <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/img/coachingNotes.jpeg/" class="d-block w-100" alt="..."  >
+          <img src="/img/coachingNotes.jpeg" class="d-block w-100" alt="..."  >
         </div>
         <div class="carousel-item">
-          <img src="/img/ncertBooks.png/" class="d-block w-100" alt="..." >
+          <img src="/img/ncertBooks.png" class="d-block w-100" alt="..." >
         </div>
         <div class="carousel-item">
-          <img src="/img/otherStudiesMaterials.jpeg/" class="d-block w-100" alt="...">
+          <img src="/img/otherStudiesMaterials.jpeg" class="d-block w-100" alt="...">
         </div>
       </div>
 
