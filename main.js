@@ -24,15 +24,132 @@ const aniSlide = document.getElementById("aniSlide");
 
 aniSlide.innerHTML = ` <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+      
+      <div class="carousel-item active">
+          <img src="/img/otherStudiesMaterials.jpeg" class="d-block w-100" alt="...">
+        </div>
+        
+      
+      
+        <div class="carousel-item">
           <img src="/img/coachingNotes.jpeg" class="d-block w-100" alt="..."  >
         </div>
+        
+        
         <div class="carousel-item">
           <img src="/img/ncertBooks.png" class="d-block w-100" alt="..." >
         </div>
+        
+        
+        
+        
+        
+        
         <div class="carousel-item">
-          <img src="/img/otherStudiesMaterials.jpeg" class="d-block w-100" alt="...">
+          <img src="/coachingNotes/img/biology.jpg" class="d-block w-100" alt="..."  >
+        </div> 
+                
+        <div class = "carousel-item" >
+          <img src="/coachingNotes/img/mathematic.jpg" class="d-block w-100" alt="..." >
         </div>
+                
+                
+        <div class="carousel-item">
+          <img src="/coachingNotes/img/physics.jpg" class="d-block w-100" alt="...">
+        </div>
+        
+        
+        
+        
+        
+        
+              <div class="carousel-item">
+          <img src="/coachingNotes/img/chemistry.jpg" class="d-block w-100" alt="...">
+        </div>
+        
+      
+      
+        <div class="carousel-item">
+          <img src="/coachingNotes/img/history.jpg" class="d-block w-100" alt="..."  >
+        </div>
+        
+        
+        <div class="carousel-item">
+          <img src="/coachingNotes/img/geography.jpg" class="d-block w-100" alt="..." >
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="carousel-item">
+          <img src="/coachingNotes/img/economics.jpg" class="d-block w-100" alt="..."  >
+        </div> 
+                
+        <div class = "carousel-item" >
+          <img src="/coachingNotes/img/politicalScience.jpg" class="d-block w-100" alt="..." >
+        </div>
+                
+                
+        <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/mathematic.jpg" class="d-block w-100" alt="...">
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+         <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/history.jpeg" class="d-block w-100" alt="...">
+        </div>
+        
+        
+        
+        
+        
+        
+              <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/geography.png" class="d-block w-100" alt="...">
+        </div>
+        
+      
+      
+        <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/economics.jpeg" class="d-block w-100" alt="..."  >
+        </div>
+        
+        
+        <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/politicalScience.jpeg" class="d-block w-100" alt="..." >
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/physics.jpg" class="d-block w-100" alt="..."  >
+        </div> 
+                
+        <div class = "carousel-item" >
+          <img src="/otherStudiesMaterials/img/chemistry.jpeg" class="d-block w-100" alt="..." >
+        </div>
+                
+                
+        <div class="carousel-item">
+          <img src="/otherStudiesMaterials/img/biology.jpg" class="d-block w-100" alt="...">
+        </div>
+        
+        
+        
+        
+        
+        
       </div>
 
 
@@ -105,3 +222,42 @@ foot.innerHTML=` <footer class="d-flex flex-wrap justify-content-between align-i
 
 
 `
+
+
+
+
+/*function showApi(x){
+  
+  alert(x)
+  let mathematic = document.getElementById('mathematic');
+  let physics = document.getElementById('physics');
+  let chemistry = document.getElementById('chemistry');
+  let biology = document.getElementById('biology');
+  let history = document.getElementById('history');
+  let geography = document.getElementById('geography');
+  let economics = document.getElementById('economics');
+  let politicalScience = document.getElementById('politicalScience');
+  
+  
+  
+  if (x === "mathematic") {
+    
+    mathematic.classList.remove("d-none");
+    
+  }
+  
+  else{
+    mathematic.classList.remove("");
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  //x.style.display = "flex";
+  
+}
+*/
